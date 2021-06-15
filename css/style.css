@@ -1,15 +1,31 @@
-Raleway <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&display=swap" rel="stylesheet">
-
-Roboto <link rel="preconnect" href="https://fonts.gstatic.com">
-<link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
+.body {
+  font-family: "Roboto";
+}
 .link-logo {
+  font-family: Raleway;
   color: #000000;
+  font-family: Raleway;
+  font-size: 26px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 1.2;
+  letter-spacing: 0.03em;
+  text-align: left;
 }
 .link {
   color: #212121;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  text-align: left;
 }
-.link:hover {
-  color: #2196F3;
-}
+.link-studio,
+.link-portfolio,
+.link:hover,
 .link:focus {
-  color: #2196F3;
+  color: #2196f3;
+}
+.filter-portfolio {
+}
