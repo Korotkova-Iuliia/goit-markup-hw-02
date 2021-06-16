@@ -9,14 +9,13 @@
   --color-black: #000000;
   --background-hero-footer: #2f303a;
   --bgr-team-butoon-portfolio: #f5f4fa;
-  --stroke-card-portfolio: #EEEEEE;
+  --stroke-card-portfolio: #eeeeee;
 }
 
 body {
   font-family: var(--main-font);
   font-style: normal;
   color: var(--color-txt);
-  
 }
 
 .list {
@@ -37,18 +36,21 @@ body {
   text-align: left;
   color: #000000;
 }
+.logo-web {
+  color: var(--color-accent);
+}
 .nav {
-   font-size: 14px;
-   font-weight: 500;
-   line-height: 1.14;
-   letter-spacing: 0.02em;
-   text-align: left;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  text-align: left;
 }
 .menu-list {
   color: var(--color-menu);
 }
 .menu-contact {
-  color: var(--color-menu-contakt)
+  color: var(--color-menu-contakt);
 }
 
 .menu-list-studio,
@@ -57,7 +59,7 @@ body {
 .menu-list:focus,
 .menu-contact:hover,
 .menu-contact:focus {
-  color:var(--color-accent);
+  color: var(--color-accent);
 }
 /* ===== hero ===== */
 .hero {
@@ -89,43 +91,42 @@ body {
   text-align: left;
 }
 .the-best-title {
-font-weight: 700;
-line-height: 1.14;
-color: var(--color-title);
-text-transform: uppercase;
+  font-weight: 700;
+  line-height: 1.14;
+  color: var(--color-title);
+  text-transform: uppercase;
 }
 .the-best-txt {
-font-weight: 400;
-line-height: 1.71;
+  font-weight: 400;
+  line-height: 1.71;
 }
 
 /* ===== section we do ===== */
 
 .we-do-title,
 .team-title {
-font-size: 36px;
-font-weight: 700;
-line-height: 1.17;
-letter-spacing: 0.03em;
-text-align: center;
-color: var(--color-title);
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-align: center;
+  color: var(--color-title);
 }
 
 /* ===== section team ===== */
 .teamlist {
-font-size: 16px;
-line-height: 1.9;
-letter-spacing: 0.03em;
-text-align: center;
+  font-size: 16px;
+  line-height: 1.9;
+  letter-spacing: 0.03em;
+  text-align: center;
 }
 .team-name {
-font-weight: 500;
-color: var(--color-title);
+  font-weight: 500;
+  color: var(--color-title);
 }
 .team-txt {
-font-weight: 400;
-color: var(--color-txt);
-
+  font-weight: 400;
+  color: var(--color-txt);
 }
 
 /* portfolio */
@@ -167,19 +168,16 @@ color: var(--color-txt);
   color: #757575;
 }
 /* footer */
-
-/* map*/
-.map {
-  color: #ffffff;
-  background: #2f303a;
+footer {
+  background: var(--background-hero-footer);
 }
-/* footer mail, tel */
+.logo-studio {
+  color: #ffffff;
+}
 .contact {
   color: rgba(255, 255, 255, 0.6);
-  background: #2f303a;
 }
 .contact:hover,
 .contact:focus {
-  color: #ffffff;
+  color: var(--color-accent);
 }
-x
