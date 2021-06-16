@@ -4,23 +4,30 @@
   --color-title: #212121;
   --color-txt: #757575;
   --color-accent: #2196f3;
+  --color-menu: #212121;
+  --color-menu-contakt: #757575;
   --color-black: #000000;
   --background-hero-footer: #2f303a;
-  --background-butoon: #f5f4fa;
+  --bgr-butoonportfolio: #f5f4fa;
+  --stroke-card-portfolio: #EEEEEE;
 }
 
-.body {
-  font-family: ;
-  color: #757575;
+body {
+  font-family: var(--main-font);
+  font-style: normal;
+  color: var(--color-txt);
+  
 }
 
-/* nav */
-ul {
+.list {
   list-style: none;
 }
-.link-logo {
-  font-family: Raleway;
-  color: #000000;
+.link {
+  text-decoration: none;
+}
+
+/* ==== navigation ==== */
+.logo {
   font-family: Raleway;
   font-size: 26px;
   font-style: normal;
@@ -28,36 +35,37 @@ ul {
   line-height: 1.2;
   letter-spacing: 0.03em;
   text-align: left;
+  color: #000000;
 }
-.link {
-  font-size: 14px;
-  font-style: normal;
-  font-weight: 500;
-  line-height: 1.2;
-  letter-spacing: 0.02em;
-  text-align: left;
-  color: tomato;
+.nav {
+   font-size: 14px;
+   font-weight: 500;
+   line-height: 1.14;
+   letter-spacing: 0.02em;
+   text-align: left;
 }
-.nav .link {
-  color: #212121;
+.menu-list {
+  color: var(--color-menu);
 }
-.nav-adress .link {
-  color: #757575;
+.menu-contact {
+  color: var(--color-menu-contakt)
 }
-.link-studio,
-.link-portfolio,
-.link:hover,
-.link:focus {
-  color: #2196f3;
+
+.menu-list-studio,
+.menu-list-portfolio,
+.menu-list:hover,
+.menu-list:focus,
+.menu-contact:hover,
+.menu-contact:focus {
+  color:var(--color-accent);
 }
-/* hero */
+/* ===== hero ===== */
 .hero {
   background: #2f303a;
   text-align: center;
 }
 .hero-title {
   font-size: 44px;
-  font-style: normal;
   font-weight: 900;
   line-height: 1.4;
   letter-spacing: 0.06em;
@@ -128,3 +136,4 @@ ul {
 .contact:focus {
   color: #ffffff;
 }
+x
