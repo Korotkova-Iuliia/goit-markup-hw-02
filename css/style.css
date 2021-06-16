@@ -8,7 +8,7 @@
   --color-menu-contakt: #757575;
   --color-black: #000000;
   --background-hero-footer: #2f303a;
-  --bgr-butoonportfolio: #f5f4fa;
+  --bgr-team-butoon-portfolio: #f5f4fa;
   --stroke-card-portfolio: #EEEEEE;
 }
 
@@ -61,7 +61,7 @@ body {
 }
 /* ===== hero ===== */
 .hero {
-  background: #2f303a;
+  background: var(--background-hero-footer);
   text-align: center;
 }
 .hero-title {
@@ -74,12 +74,58 @@ body {
 }
 .hero-button {
   font-size: 16px;
-  font-style: normal;
   font-weight: 700;
   line-height: 1.9;
   letter-spacing: 0.06em;
   color: #ffffff;
   background: #2196f3;
+  cursor: pointer;
+}
+
+/* == section the best == */
+.section-the-best {
+  font-size: 14px;
+  letter-spacing: 0.03em;
+  text-align: left;
+}
+.the-best-title {
+font-weight: 700;
+line-height: 1.14;
+color: var(--color-title);
+text-transform: uppercase;
+}
+.the-best-txt {
+font-weight: 400;
+line-height: 1.71;
+}
+
+/* ===== section we do ===== */
+
+.we-do-title,
+.team-title {
+font-size: 36px;
+font-weight: 700;
+line-height: 1.17;
+letter-spacing: 0.03em;
+text-align: center;
+color: var(--color-title);
+}
+
+/* ===== section team ===== */
+.teamlist {
+font-size: 16px;
+line-height: 1.9;
+letter-spacing: 0.03em;
+text-align: center;
+}
+.team-name {
+font-weight: 500;
+color: var(--color-title);
+}
+.team-txt {
+font-weight: 400;
+color: var(--color-txt);
+
 }
 
 /* portfolio */
