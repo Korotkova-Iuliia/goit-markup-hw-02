@@ -142,16 +142,19 @@ body {
   text-align: center;
   color: var(--color-title);
   background-color: var(--bgr-team-button-portfolio);
+  border: none;
   cursor: pointer;
 }
-.portfolio-button:hover {
+.portfolio-button:hover,
+.portfolio-button:focus {
   color: #ffffff;
+  border: none;
   background-color: var(--color-accent);
 }
 .portfolio-card {
   text-align: left;
-  border-color: #eeeeee;
-  border: 1px;
+  /* border-color: #eeeeee;
+  border: 1px; */
 }
 .card-title {
   font-size: 18px;
