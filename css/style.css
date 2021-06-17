@@ -6,10 +6,10 @@
   --color-accent: #2196f3;
   --color-menu: #212121;
   --color-menu-contakt: #757575;
-  --color-black: #000000;
   --background-hero-footer: #2f303a;
-  --bgr-team-butoon-portfolio: #f5f4fa;
+  --bgr-team-button-portfolio: #f5f4fa;
   --stroke-card-portfolio: #eeeeee;
+  --contact-footer: rgba(255, 255, 255, 0.6);
 }
 
 body {
@@ -52,7 +52,6 @@ body {
 .menu-contact {
   color: var(--color-menu-contakt);
 }
-
 .menu-list-studio,
 .menu-list-portfolio,
 .menu-list:hover,
@@ -61,6 +60,7 @@ body {
 .menu-contact:focus {
   color: var(--color-accent);
 }
+
 /* ===== hero ===== */
 .hero {
   background: var(--background-hero-footer);
@@ -114,6 +114,7 @@ body {
 }
 
 /* ===== section team ===== */
+
 .teamlist {
   font-size: 16px;
   line-height: 1.9;
@@ -129,27 +130,23 @@ body {
   color: var(--color-txt);
 }
 
-/* portfolio */
+/* ===== portfolio ===== */
+.portfolio-button-menu {
+  text-align: center;
+}
 .portfolio-button {
   font-size: 16px;
-  font-style: normal;
   font-weight: 500;
   line-height: 1.6;
   letter-spacing: 0.03em;
   text-align: center;
-  background-color: #f5f4fa;
+  background-color: var(--bgr-team-button-portfolio);
+  cursor: pointer;
 }
-.portfolio-button-active {
-  font-size: 16px;
-  font-style: normal;
-  font-weight: 500;
-  line-height: 1.6;
-  letter-spacing: 0.03em;
-  text-align: center;
-  columns: #ffffff;
-  background-color: #2196f3;
+.portfolio-button:hover {
+  color: #ffffff;
+  background-color: var(--color-accent);
 }
-
 .card-title {
   font-size: 18px;
   font-style: normal;
@@ -174,8 +171,16 @@ footer {
 .logo-studio {
   color: #ffffff;
 }
+.adress {
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  text-align: left;
+}
 .contact {
-  color: rgba(255, 255, 255, 0.6);
+  color: var(--contact-footer);
 }
 .contact:hover,
 .contact:focus {
