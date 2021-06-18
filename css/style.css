@@ -39,17 +39,20 @@ body {
 .logo-web {
   color: var(--color-accent);
 }
-.nav {
+.menu-list {
   font-size: 14px;
   font-weight: 500;
   line-height: 1.14;
   letter-spacing: 0.02em;
   text-align: left;
-}
-.menu-list {
   color: var(--color-menu);
 }
 .menu-contact {
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  text-align: left;
   color: var(--color-menu-contakt);
 }
 .menu-list-studio,
@@ -86,11 +89,11 @@ body {
 
 /* == section the best == */
 .section-the-best {
-  font-size: 14px;
   letter-spacing: 0.03em;
   text-align: left;
 }
 .the-best-title {
+  font-size: 14px;
   font-weight: 700;
   line-height: 1.14;
   color: var(--color-title);
@@ -114,18 +117,19 @@ body {
 }
 
 /* ===== section team ===== */
-
-.teamlist {
+.team-name {
   font-size: 16px;
   line-height: 1.9;
   letter-spacing: 0.03em;
   text-align: center;
-}
-.team-name {
   font-weight: 500;
   color: var(--color-title);
 }
 .team-txt {
+  font-size: 16px;
+  line-height: 1.9;
+  letter-spacing: 0.03em;
+  text-align: center;
   font-weight: 400;
   color: var(--color-txt);
 }
@@ -135,6 +139,7 @@ body {
   text-align: center;
 }
 .portfolio-button {
+  font-family: var(--main-font)
   font-size: 16px;
   font-weight: 500;
   line-height: 1.6;
@@ -176,15 +181,13 @@ footer {
 .logo-studio {
   color: #ffffff;
 }
-.adress {
+.contact {
   font-size: 14px;
   font-style: normal;
   font-weight: 400;
   line-height: 1.71;
   letter-spacing: 0.03em;
   text-align: left;
-}
-.contact {
   color: var(--contact-footer);
 }
 .contact:hover,
