@@ -56,7 +56,15 @@ body {
   color: var(--color-menu-contakt);
 }
 .menu-list-studio,
-.menu-list-portfolio,
+.menu-list-portfolio {
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  text-align: left;
+  color: var(--color-accent);
+}
+
 .menu-list:hover,
 .menu-list:focus,
 .menu-contact:hover,
@@ -119,6 +127,7 @@ body {
 /* ===== section team ===== */
 .team-name {
   font-size: 16px;
+  font-weight: 500;
   line-height: 1.9;
   letter-spacing: 0.03em;
   text-align: center;
@@ -138,8 +147,9 @@ body {
 .portfolio-button-menu {
   text-align: center;
 }
+.section-portfolio,
 .portfolio-button {
-  font-family: var(--main-font)
+  font-family: var(--main-font);
   font-size: 16px;
   font-weight: 500;
   line-height: 1.6;
@@ -152,6 +162,12 @@ body {
 }
 .portfolio-button:hover,
 .portfolio-button:focus {
+  font-family: var(--main-font);
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.6;
+  letter-spacing: 0.03em;
+  text-align: center;
   color: #ffffff;
   border: none;
   background-color: var(--color-accent);
@@ -181,6 +197,7 @@ footer {
 .logo-studio {
   color: #ffffff;
 }
+
 .contact {
   font-size: 14px;
   font-style: normal;
@@ -190,6 +207,19 @@ footer {
   text-align: left;
   color: var(--contact-footer);
 }
+
+.contact-map {
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  text-align: left;
+  color: #ffffff;
+}
+
+.contact-map:hover,
+.contact-map:focus,
 .contact:hover,
 .contact:focus {
   color: var(--color-accent);
